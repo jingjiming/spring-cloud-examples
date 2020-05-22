@@ -12,6 +12,10 @@
     <artifactId>spring-cloud-config-git</artifactId>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>spring-cloud-config-server</module>
+        <module>spring-cloud-config-client</module>
+    </modules>
 
     <properties>
         <skip_maven_deploy>true</skip_maven_deploy>
